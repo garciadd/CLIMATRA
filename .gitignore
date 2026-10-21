@@ -1,0 +1,32 @@
+# Python packaging / bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments / local settings
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+
+# External datasets, local caches and experiment artifacts
+data/
+outputs/
+checkpoints/
+.cache/
+
+# Local machine configuration and credentials
+*.local.toml
+*.local.yaml
+*.local.yml
+credentials.json
+
+# Overleaf sources and personal planning are maintained separately
